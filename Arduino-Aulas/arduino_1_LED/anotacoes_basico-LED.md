@@ -78,15 +78,13 @@ Cores do LED
 
     A cor é definida pela energia liberada, que é determinada pelo bandgap. A fórmula equivalente é:
     E=hf
-    E=hf
 
-    Onde hh é a constante de Planck e ff é a frequência.
+    Onde h é a constante de Planck e f é a frequência.
 
     A frequência é dada por:
-    f=1λ
-    f=λ1​
+    f=1/λ
 
-    Onde λλ é o comprimento de onda da luz.
+    Onde λ é o comprimento de onda da luz.
 
     Quanto maior a frequência, menor o comprimento de onda da luz. Frequências altas vão em direção ao roxo, violeta, ultravioleta, etc. (cores de comprimentos de onda curtos). Frequências baixas (vermelho, infravermelho) têm comprimentos de onda maiores.
 

@@ -1,0 +1,144 @@
+int redLED = 8;
+int greenLED = 12;
+int blueLED = 7;
+int blinkRED = 150;
+int blinkGREEN = 300;
+int blinkBLUE = 600;
+int endOfLoop = 2000;
+void setup()
+{
+  pinMode(redLED, OUTPUT);
+  pinMode(greenLED, OUTPUT);
+  pinMode(blueLED, OUTPUT);
+}
+
+void loop()
+{
+    digitalWrite(redLED, HIGH);
+    delay(blinkRED);
+    digitalWrite(blinkRED, LOW);
+    delay(blinkRED);
+  
+    digitalWrite(redLED, HIGH);
+    delay(blinkRED);
+    digitalWrite(redLED, LOW);
+    delay(blinkRED);
+ 
+    digitalWrite(redLED, HIGH);
+    delay(blinkRED);
+    digitalWrite(redLED, LOW);
+    delay(blinkRED);
+  
+    digitalWrite(redLED, HIGH);
+    delay(blinkRED);
+    digitalWrite(redLED, LOW);
+    delay(blinkRED);
+    digitalWrite(redLED, HIGH);
+    delay(blinkRED);
+    digitalWrite(redLED, LOW);
+    delay(blinkRED);
+  
+    digitalWrite(greenLED, HIGH);
+    delay(blinkGREEN);
+    digitalWrite(greenLED, LOW);
+    delay(blinkGREEN);
+    digitalWrite(greenLED, HIGH);
+    delay(blinkGREEN);
+    digitalWrite(greenLED, LOW);
+    delay(blinkGREEN);
+    digitalWrite(greenLED, HIGH);
+    delay(blinkGREEN);
+    digitalWrite(greenLED, LOW);
+    delay(blinkGREEN);
+    digitalWrite(greenLED, HIGH);
+    delay(blinkGREEN);
+    digitalWrite(greenLED, LOW);
+    delay(blinkGREEN);
+    digitalWrite(greenLED, HIGH);
+    delay(blinkGREEN);
+    digitalWrite(greenLED, LOW);
+    delay(blinkGREEN);
+    digitalWrite(greenLED, HIGH);
+    delay(blinkGREEN);
+    digitalWrite(greenLED, LOW);
+    delay(blinkGREEN);
+    digitalWrite(greenLED, HIGH);
+    delay(blinkGREEN);
+    digitalWrite(greenLED, LOW);
+    delay(blinkGREEN);
+    digitalWrite(greenLED, HIGH);
+    delay(blinkGREEN);
+    digitalWrite(greenLED, LOW);
+    delay(blinkGREEN);
+    digitalWrite(greenLED, HIGH);
+    delay(blinkGREEN);
+    digitalWrite(greenLED, LOW);
+    delay(blinkGREEN);
+    digitalWrite(greenLED, HIGH);
+    delay(blinkGREEN);
+    digitalWrite(greenLED, LOW);
+    delay(blinkGREEN);
+  
+  	digitalWrite(blueLED, HIGH);
+  	delay(blinkBLUE);
+    digitalWrite(blueLED, LOW);
+  	delay(blinkBLUE);
+    digitalWrite(blueLED, HIGH);
+  	delay(blinkBLUE);
+    digitalWrite(blueLED, LOW);
+  	delay(blinkBLUE);
+    digitalWrite(blueLED, HIGH);
+  	delay(blinkBLUE);
+    digitalWrite(blueLED, LOW);
+  	delay(blinkBLUE);
+    digitalWrite(blueLED, HIGH);
+  	delay(blinkBLUE);
+    digitalWrite(blueLED, LOW);
+  	delay(blinkBLUE);
+    digitalWrite(blueLED, HIGH);
+  	delay(blinkBLUE);
+    digitalWrite(blueLED, LOW);
+  	delay(blinkBLUE);
+    digitalWrite(blueLED, HIGH);
+  	delay(blinkBLUE);
+    digitalWrite(blueLED, LOW);
+  	delay(blinkBLUE);
+    digitalWrite(blueLED, HIGH);
+  	delay(blinkBLUE);
+    digitalWrite(blueLED, LOW);
+  	delay(blinkBLUE);
+    digitalWrite(blueLED, HIGH);
+  	delay(blinkBLUE);
+    digitalWrite(blueLED, LOW);
+  	delay(blinkBLUE);
+    digitalWrite(blueLED, HIGH);
+  	delay(blinkBLUE);
+    digitalWrite(blueLED, LOW);
+  	delay(blinkBLUE);
+    digitalWrite(blueLED, HIGH);
+  	delay(blinkBLUE);
+    digitalWrite(blueLED, LOW);
+  	delay(blinkBLUE);
+    digitalWrite(blueLED, HIGH);
+  	delay(blinkBLUE);
+    digitalWrite(blueLED, LOW);
+  	delay(blinkBLUE);
+    digitalWrite(blueLED, HIGH);
+  	delay(blinkBLUE);
+    digitalWrite(blueLED, LOW);
+  	delay(blinkBLUE);
+    digitalWrite(blueLED, HIGH);
+  	delay(blinkBLUE);
+    digitalWrite(blueLED, LOW);
+  	delay(blinkBLUE);
+    digitalWrite(blueLED, HIGH);
+  	delay(blinkBLUE);
+    digitalWrite(blueLED, LOW);
+  	delay(blinkBLUE);
+    digitalWrite(blueLED, HIGH);
+  	delay(blinkBLUE);
+    digitalWrite(blueLED, LOW);
+  	delay(blinkBLUE);
+  
+  	delay(endOfLoop);
+}

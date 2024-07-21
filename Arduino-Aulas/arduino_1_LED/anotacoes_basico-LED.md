@@ -2,10 +2,11 @@ Aula 1: Introdução
 
 Programas iniciais, como interagir com pinos:
 
-cpp
-
+```cpp
 pinMode([número do pino], INPUT/OUTPUT);
 digitalWrite([número do pino], ação);
+delay(tempo);
+```
 
     Não use ponto e vírgula (;) no final das linhas de código.
     A ação do digitalWrite pode ser HIGH ou LOW.

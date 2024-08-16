@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"path": "../../../../Arduino-Studylog/Arduino-studylog"
+		},
+		{
+			"path": "../../../../aprendendo C"
+		},
+		{
+			"name": "joystick",
+			"path": ".."
+		}
+	],
+	"settings": {}
+}

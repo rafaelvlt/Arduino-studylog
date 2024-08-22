@@ -18,5 +18,6 @@ void loop() {
   shiftOut(datapin, clockpin, MSBFIRST, LEDS);
   digitalWrite(latchpin, 1);
   delay(dt);
-  LEDS += 1;
+  //como estando lidando com base 2, jeito mais simples de se colocar os caracteres para esquerda é multiplicar por dois, devido a base
+  LEDS = LEDS * 2;
   }

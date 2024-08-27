@@ -1,6 +1,8 @@
 #include <Arduino.h>
 #include <Wire.h>
 #include <LCD_I2C.h>
+//seta o display no port 0x27 do I2C e as dimensoes do LCD
+//os pinos que devem ser setados é o VCC e GND, além do SDA e SCL no ANALOG 4 e 5 respectivamente
 LCD_I2C lcd(0x27, 16, 2);
 int dt = 4000;
 float number1;
